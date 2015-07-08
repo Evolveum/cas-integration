@@ -1,4 +1,4 @@
-<!-- Copyright (c) 2010-2013 Evolveum
+<!-- Copyright (c) 2013-2015 Evolveum
 
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -58,4 +58,18 @@
 			<url>http://nexus.evolveum.com/nexus/content/repositories/snapshots/</url>
 		</repository>
 	</repositories>
+	
+	<build>
+	    <plugins>
+	        <plugin>
+	            <groupId>org.apache.maven.plugins</groupId>
+	            <artifactId>maven-compiler-plugin</artifactId>
+	            <version>3.3</version>
+	            <configuration>
+	                <source>1.7</source>
+	                <target>1.7</target>
+	            </configuration>
+	        </plugin>
+	    </plugins>
+    </build>
 </project>

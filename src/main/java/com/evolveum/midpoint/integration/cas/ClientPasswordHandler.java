@@ -1,5 +1,4 @@
-package com.evolveum.midpoint.integration.cas;
-/* Copyright (c) 2010-2013 Evolveum
+/* Copyright (c) 2013-2015 Evolveum
 
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -12,7 +11,7 @@ package com.evolveum.midpoint.integration.cas;
  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  See the License for the specific language governing permissions and
  limitations under the License. */
-
+package com.evolveum.midpoint.integration.cas;
 
 import java.io.IOException;
 
